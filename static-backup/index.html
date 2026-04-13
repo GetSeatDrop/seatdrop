@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>GetSeatDrop — Track ticket prices and get alerts</title>
+  <meta name="description" content="GetSeatDrop helps fans monitor live event ticket prices and get notified when prices drop so they can buy at the right time." />
+  <link rel="canonical" href="https://www.getseatdrop.com/" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="/">GetSeatDrop</a>
+      <nav class="nav">
+        <a href="#how-it-works">How It Works</a>
+        <a href="/privacy.html">Privacy</a>
+        <a href="/terms.html">Terms</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <h1>Track concert ticket prices and get alerts when prices drop.</h1>
+          <p class="lead">GetSeatDrop helps fans monitor live event ticket prices so they can buy at a better time and avoid overpaying.</p>
+          <div class="hero-ctas">
+            <a class="primary-button" href="#search">Start Tracking</a>
+            <a class="secondary-button" href="#how-it-works">How It Works</a>
+          </div>
+        </div>
+        <div class="hero-card card" id="search">
+          <form class="search-form" onsubmit="event.preventDefault(); alert('Create Price Alert — demo');">
+            <label class="label">Event</label>
+            <input class="input" type="text" placeholder="Search for an artist, venue, or event" aria-label="Search for an artist, venue, or event">
+            <label class="label">Target price</label>
+            <input class="input" type="text" placeholder="Example: Under $120" aria-label="Target price">
+            <div style="display:flex;gap:12px;margin-top:12px;">
+              <button class="primary-button" type="submit">Create Price Alert</button>
+              <button class="secondary-button" type="button" onclick="location.href='#how-it-works'">How It Works</button>
+            </div>
+            <p class="disclaimer">Ticket availability and pricing may change at any time.</p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section class="how-it-works" id="how-it-works">
+      <div class="container">
+        <h2>How it works</h2>
+        <div class="steps">
+          <div class="step card">
+            <div class="step-number">1</div>
+            <h3>Search for an event</h3>
+            <p>Find the artist, venue, or specific show you care about.</p>
+          </div>
+          <div class="step card">
+            <div class="step-number">2</div>
+            <h3>Set your target price</h3>
+            <p>Choose a price you're willing to pay so we can watch listings for you.</p>
+          </div>
+          <div class="step card">
+            <div class="step-number">3</div>
+            <h3>Get notified</h3>
+            <p>Receive an alert when listings meet your criteria so you can buy with confidence.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="benefits">
+      <div class="container">
+        <h2>Why GetSeatDrop</h2>
+        <div class="benefit-grid">
+          <div class="benefit card">
+            <h4>Track ticket prices over time</h4>
+            <p>See price trends so you can decide when to buy.</p>
+          </div>
+          <div class="benefit card">
+            <h4>Watch events in one place</h4>
+            <p>Manage the shows you care about across venues and sellers.</p>
+          </div>
+          <div class="benefit card">
+            <h4>Get notified when prices move</h4>
+            <p>Timely alerts so you don't miss a good deal.</p>
+          </div>
+          <div class="benefit card">
+            <h4>Built for high-intent buyers</h4>
+            <p>Designed for fans who want to buy at the right moment.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>Contact: <a href="mailto:support@getseatdrop.com">support@getseatdrop.com</a></div>
+      <div class="footer-links"><a href="/privacy.html">Privacy Policy</a> · <a href="/terms.html">Terms of Service</a></div>
+      <div class="copyright">© 2026 GetSeatDrop. All rights reserved.</div>
+    </div>
+  </footer>
+
+</body>
+</html>
