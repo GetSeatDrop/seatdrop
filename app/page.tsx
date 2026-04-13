@@ -8,8 +8,9 @@ export default function Home() {
           <div className="hero-copy">
             <h1>Track concert ticket prices and get alerts when prices drop.</h1>
             <p className="lead">GetSeatDrop helps fans monitor live event ticket prices so they can buy at a better time and avoid overpaying.</p>
+            <p className="lead">When you're ready, we connect you directly to ticket marketplaces to complete your purchase.</p>
             <div className="hero-ctas">
-              <Link className="primary-button" href="#search">Start Tracking</Link>
+              <Link className="primary-button" href="#search">Track Ticket Prices</Link>
               <Link className="secondary-button" href="#how-it-works">How It Works</Link>
             </div>
           </div>
@@ -25,6 +26,7 @@ export default function Home() {
               </div>
               <p className="disclaimer">Ticket availability and pricing may change at any time.</p>
             </form>
+            <p className="disclaimer" style={{ marginTop: 12 }}>Built for concert fans looking to buy tickets at the right time.</p>
           </div>
         </div>
       </section>
@@ -71,6 +73,26 @@ export default function Home() {
             <div className="benefit card">
               <h4>Built for high-intent buyers</h4>
               <p>Designed for fans who want to buy at the right moment.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="use-cases">
+        <div className="container">
+          <h2>Use cases</h2>
+          <div className="benefit-grid">
+            <div className="benefit card">
+              <h4>Concerts</h4>
+              <p>Track prices for your favorite artists and venues.</p>
+            </div>
+            <div className="benefit card">
+              <h4>Festivals</h4>
+              <p>Monitor multi-day events and get alerts for deals.</p>
+            </div>
+            <div className="benefit card">
+              <h4>Sports</h4>
+              <p>Stay updated on game ticket pricing trends.</p>
             </div>
           </div>
         </div>
