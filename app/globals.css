@@ -85,3 +85,21 @@ body {
   .steps { flex-direction:column; }
   .benefit-grid { grid-template-columns:repeat(1,1fr); }
 }
+@media (max-width: 768px) {
+    .header-nav {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+        justify-content: flex-end;
+    }
+
+        .header-nav a {
+            font-size: 14px;
+            white-space: nowrap;
+        }
+
+            .header-nav a[href="/privacy"],
+            .header-nav a[href="/terms"] {
+                display: none;
+            }
+}
