@@ -98,8 +98,7 @@ body {
             white-space: nowrap;
         }
 
-            .header-nav a[href="/privacy"],
-            .header-nav a[href="/terms"] {
-                display: none;
-            }
+    .mobile-hide {
+        display: none;
+    }
 }
